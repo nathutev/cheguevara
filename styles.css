@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Hepta Slab';
+  word-spacing: 7px;
+}
+
+::-moz-selection {
+  color: white;
+  background: rgb(170, 0, 0);
+}
+
+::selection {
+  color: white;
+  background: rgb(170, 0, 0);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #e0e0e0;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 35px 30px 0px 30px;
+  position: sticky;
+}
+  
+.header a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 8px;
+  transition: background-color .25s;
+  margin: 0px 7px 0px 7px;
+}
+  
+.header a.logo {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.header-right {
+  float: right;
+}
+
+#infoA:hover, #mladiA:hover, #guatemalaA:hover, #motorkaA:hover, #smrtA:hover, #zajimavostiA:hover {
+  background-color: rgb(170, 0, 0);
+  color: white;
+}
+
+#infoA:active, #mladiA:active, #guatemalaA:active, #motorkaA:active, #smrtA:active, #zajimavostiA:active {
+  background-color: rgba(170, 0, 0, 0.7);
+}
+
+#info {
+  background-color: #e0e0e0;
+  padding: 22px 6px 20px 30px;
+  border-radius: 10px;
+  margin: 20px 30px 0px 30px;
+}
+
+#textInfo {
+  margin-top: -15px;
+  vertical-align: top;
+  display: inline-block;
+  width: 65%;
+}
+
+#img1 {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0.5%;
+  width: 29.97%;
+  border-radius: 12px;
+}
+
+#mladi {
+  margin: 20px 15px 0px 30px;
+  background-color: #e0e0e0;
+  padding: 10px 20px 20px 30px;
+  border-radius: 10px;
+  width: 41.3%;
+  display: inline-block
+}
+
+#guatemala {
+  margin: 20px 30px 0px 20px;
+  background-color: #e0e0e0;
+  padding: 10px 30px 20px 30px;
+  border-radius: 10px;
+  width: 41.3%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#motorka {
+  margin: 40px 30px 0px 30px;
+  background-color: #e0e0e0;
+  padding: 10px 30px 20px 30px;
+  border-radius: 10px;
+  display: inline-block
+}
+
+#smrt {
+  margin: 40px 30px 0px 30px;
+  background-color: #e0e0e0;
+  padding: 10px 30px 20px 30px;
+  border-radius: 10px;
+  display: inline-block
+}
+
+#zajimavosti {
+  margin: 40px 30px 0px 30px;
+  background-color: #e0e0e0;
+  padding: 10px 0px 20px 30px;
+  border-radius: 10px;
+  display: inline-block
+}
+
+#textZajimavosti {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#img2 {
+  margin-left: 6%;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  width: 30%;
+  border-radius: 12px;
+}
+
+#textInfo a {
+  color: black;
+}
+
+#footer {
+  margin: 40px 30px 0px 30px;
+  background-color: #e0e0e0;
+  padding: 20px 0px 20px 0px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 95%;
+}
+
+#textFooter {
+  text-align: center;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  border: none;
+  outline: none;
+  background-color: rgb(170, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px;
+  transition: background-color .5s;
+  box-shadow: -7px 7px 7px rgba(0, 0, 0, 0.7);
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
