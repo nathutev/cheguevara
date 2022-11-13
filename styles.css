@@ -172,13 +172,10 @@ body {
   opacity: 0.5;
 }
 
-#textFooter label {
-  color: #e0e0e0;
-  cursor: pointer;
-}
-
 #sus {
   text-decoration: none;
+  color: #e0e0e0;
+  cursor: pointer;
 }
 
 button {
